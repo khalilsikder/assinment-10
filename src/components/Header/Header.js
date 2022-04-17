@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='header-links'>
+        <nav className='header-links'>
         <Link to='/'>Home</Link>
         <Link to ='/contact'>Contact</Link>
         <Link to ='/service'>Service</Link>
@@ -12,7 +12,7 @@ const Header = () => {
         <Link to ='/blog'>Blog</Link>
         <Link to='/login'>Login</Link>
 
-        </div>
+        </nav>
     );
 };
 

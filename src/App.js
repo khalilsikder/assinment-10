@@ -9,6 +9,7 @@ import Login from './components/Login/Login';
 import Logout from './components/Logout/Logout';
 import NotFound from './components/Not Found/Not Found';
 import Service from './components/Service/Service';
+import Signup from './components/Signup/Signup';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/logout' element={<Logout></Logout>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/signup' element={<Signup></Signup>}></Route>
         <Route path='/*' element={<NotFound></NotFound>}></Route>
       </Routes>
       
