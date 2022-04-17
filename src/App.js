@@ -8,8 +8,9 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import Logout from './components/Logout/Logout';
 import NotFound from './components/Not Found/Not Found';
-import Service from './components/Service/Service';
 import Signup from './components/Signup/Signup';
+import Service from './components/Service/Service';
+
 
 function App() {
   return (

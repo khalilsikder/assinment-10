@@ -16,15 +16,12 @@ const Signup = () => {
     }
     const handleConfirmPasswordBlur=event=>{
         setConfirmPassword(event.target.value)
-     const handleCreateUser=event=>{
-         event.preventDefault();
-     }   
     }
     return (
         <div className='form-container'>
             <div>
             <h2 className='login-title'>Sign Up</h2>
-            <form onSubmit={handleCreateUser}>
+            <form>
             <div className='input-group'>
               <label htmlFor="email">Email</label>
               <input onBlur={handleEmailBlur} type="email" name='email' id='' required/>
@@ -37,7 +34,7 @@ const Signup = () => {
               <label htmlFor="confirm-password"> confirm Password</label>
               <input onBlur={handleConfirmPasswordBlur} type="password" name='confirm-password' id='' required/>
             </div>
-            <input className='form-submit' type="submit" value="Sign Up" />
+            <input className='form-submit' type="submit" value="Signup" />
             </form>
             <p>All have an account?<Link className='form-link' to='/login'>login</Link></p>
             </div>  
