@@ -1,7 +1,16 @@
-.header-links{
-    text-decoration: none;
-    margin-left: 20px;
-    color: chocolate;
-    font-size: 20px;
+.header-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.header-links:hover{color: blueviolet;}
+.header-menu a{
+    text-decoration: none;
+    color: slateblue;
+    font-size: 25px;
+    margin-left: 15px;
+
+}
+.header-menu a:hover{
+    color: orangered;
+}
