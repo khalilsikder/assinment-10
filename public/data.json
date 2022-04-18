@@ -1,42 +1,42 @@
 [
     {
         "id" :1,
-        "img" : "",
+        "img" : "https://i.ibb.co/0rVmFgN/male-athlete-workout-running-exercise-machine-active-sport-training-gym-266732-208.webp",
         "name" : "",
         "price" :""
        
     },
     {
-        "id" :2,
-        "img" : "",
+        "Id" :2,
+        "img" : "https://i.ibb.co/PMpMvpg/bench-30042-340.webp",
         "name" : "",
         "price" :""
         
     },
     {
-        "id" :3,
-        "img" : "",
+        "Id" :3,
+        "img" : "https://i.ibb.co/0mymrb6/kettlebell-5679666-340.webp",
         "name" : "",
         "price" :""
         
     },
     {
-        "id" :4,
-        "img" : "",
+        "Id" :4,
+        "img" : "https://i.ibb.co/DbqqrfT/exercise-machine-4565410-340.webp",
         "name" : "",
         "price" :""
         
     },
     {
-        "id" :5,
-        "img" : "",
+        "Id" :5,
+        "img" : "https://i.ibb.co/59pmDJF/images.jpg",
         "name" : "",
         "price" :""
         
     },
     {
-        "id" :6,
-        "img" : "",
+        "Id" :6,
+        "img" : "https://i.ibb.co/cghVLFD/sport-fitness-lifestyle-people-concept-smiling-men-women-stretching-gym-sport-fitness-lifestyle-peop.jpg",
         "name" : "",
         "price" :""
         

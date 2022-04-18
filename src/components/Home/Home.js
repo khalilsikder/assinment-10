@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css'
 const Home = () => {
+
     return (
         <div className='homepage'>
             <h1 className='header-gym'>Mystar Gym</h1>
