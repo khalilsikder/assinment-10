@@ -7,6 +7,7 @@ const Signup = () => {
     const[password,setPassword]=useState('');
     const[confirmpassword,setConfirmPassword]=useState('');
     const[error,setError]=useState('');
+  
 
     const handleEmailBlur=event=>{
         setEmail(event.target.value)
@@ -16,6 +17,8 @@ const Signup = () => {
     }
     const handleConfirmPasswordBlur=event=>{
         setConfirmPassword(event.target.value)
+    
+    
     }
     return (
         <div className='form-container'>
@@ -39,7 +42,6 @@ const Signup = () => {
             <p>All have an account?<Link className='form-link' to='/login'>login</Link></p>
             </div>  
         </div>
-    );
-};
-
-export default Signup;
+    )
+    }
+    export default Signup

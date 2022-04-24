@@ -10,8 +10,8 @@ const ServiceDetail = () => {
         const url=`data.json/${service}`
         console.log(url);
         fetch(url)
-        .then(res=>res.json())
-        .then(data=>setService(data))
+            .then(res=>res.json())
+        .then(data=>console.log(data))
     },[])
     return (
         <div>

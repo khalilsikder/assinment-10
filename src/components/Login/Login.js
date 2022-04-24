@@ -18,9 +18,11 @@ const Login = () => {
             </div>
             <input className='form-submit' type="submit" value="Login" />
             </form>
-            <p>New to this gymweb?<Link className='form-link' to='signup'>create an account</Link></p>
-            </div>  
+            <p>New to this gymweb?<Link className='form-link' to='SignUp'>create an account</Link></p>
+            </div> 
+            <br />
         </div>
+        
     );
 };
 
