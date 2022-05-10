@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Login.css'
+import SocialLogin from './SocialLogin/SocialLogin';
 
 const Login = () => {
     return (
@@ -21,6 +22,8 @@ const Login = () => {
             <p>New to this gymweb?<Link className='form-link' to='SignUp'>create an account</Link></p>
             </div> 
             <br />
+            <SocialLogin></SocialLogin>
+            <br/>
         </div>
         
     );
