@@ -1,0 +1,7 @@
+ button{
+    width: 100px;
+    background-color: gray;
+    color: azure;
+    border: 3px solid peru;
+    border-radius: 20px;
+}

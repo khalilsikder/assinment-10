@@ -1,0 +1,12 @@
+.services{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:5px;
+    margin: 20px;
+}
+.services img{
+    width: 300px;
+    border: 3px solid mediumorchid;
+    border-radius: 10px;
+
+}

@@ -1,24 +1,17 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import './ServiceDetail.css'
 
-const ServiceDetail = () => {
-    const{serviceId}=useParams();
-    const[service,setService] =useState({})
-    useEffect(()=>{
-        const url=`data.json/${service}`
-        console.log(url);
-        fetch(url)
-            .then(res=>res.json())
-        .then(data=>console.log(data))
-    },[])
+const ServiceDetail = (props) => {
+    const{name,price,img}=props.service;
+    const navigate = useNavigate()
     return (
-        <div>
-            <h2>{serviceId}</h2>
-            <p>image{service.img}</p>
-            <p>name:{service.name}</p>
-            <p>price:{service.price}</p> 
+        <div className='services-btn'>
+            <img src={img} alt="" />
+            <p>name:{name}</p>
+            <p>price:${price}</p>
+            <button onClick={()=>navigate('/Checkout')}>checkout</button>
+            
         </div>
     );
 };
