@@ -2,6 +2,7 @@
 import React from 'react';
 import './Login.css'
 import { Link, useNavigate } from 'react-router-dom';
+import SocialLogin from './SocialLogin/SocialLogin';
 
 const Login = () => {
   const navigate=useNavigate();
@@ -20,7 +21,7 @@ const Login = () => {
       </form>
       <p>Don't have account?<Link to='/register' className='text-danger pe-auto text-decoration-none'onClick={navigateRegister}>Please Register</Link></p>
     </div>
-      
+    <SocialLogin></SocialLogin>  
     </div>
   );
 };

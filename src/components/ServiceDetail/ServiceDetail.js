@@ -10,7 +10,7 @@ const ServiceDetail = (props) => {
             <img src={img} alt="" />
             <p>name:{name}</p>
             <p>price:${price}</p>
-            <button onClick={()=>navigate('/Checkout')}>checkout</button>
+            <button onClick={()=>navigate('/Checkout')}>add me</button>
             
         </div>
     );

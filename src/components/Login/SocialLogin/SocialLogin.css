@@ -1,0 +1,10 @@
+.social-btn{
+    width: 250px;
+    height: 45px;
+    border: none;
+    font-size: 20px;
+    background-color: aqua;
+    color: black;
+    border-radius: none;
+    margin-bottom: 10px;
+}

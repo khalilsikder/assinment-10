@@ -1,7 +1,9 @@
 .register-form{
     margin:0 auto;
     width: 40%;
-    background-color: aquamarine;
+    background-color: aqua;
+    color: #000;
+    
 
     
 }
@@ -9,7 +11,8 @@
     display:block;
     width: 100%;
     height: 60px;
-    background-color:lightgreen;
+    background-color:navajowhite;
+    color: #000;
     padding-left:8px;
     margin-left: 5px;
     font-size: 18;
